@@ -2,6 +2,9 @@
   "name": "b8ta-frontend",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -12,9 +15,6 @@
     "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
-  "engines": {
-    "node": "16.x"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -22,22 +22,11 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
