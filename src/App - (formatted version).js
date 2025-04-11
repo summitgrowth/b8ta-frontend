@@ -41,7 +41,7 @@ export default function App() {
     <div className="container">
       <header className="header">
         <div className="logo">b8ta</div>
-        <a href="#" className="signin">Sign In</a>
+        <a href="#" className="signin">sign in</a>
       </header>
 
       <main className="main-content">
@@ -58,7 +58,7 @@ export default function App() {
             className="chat-input"
           />
           <button onClick={handleSend} className="chat-btn">
-            Ask b8ta
+            How can I help?
           </button>
           {reply && <p className="reply">💬 {reply}</p>}
         </div>
@@ -66,12 +66,12 @@ export default function App() {
         <div className="file-container">
           <input
             type="file"
-            accept=".xlsx,.csv"
+            accept=".txt,.csv"
             onChange={(e) => setFile(e.target.files[0])}
             className="file-input"
           />
           <button onClick={handleFileUpload} className="file-btn">
-            Analyze Your Financials
+            Analyze Your File
           </button>
           {uploadResponse && (
             <div className="upload-response">
