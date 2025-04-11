@@ -2,6 +2,9 @@
   "name": "b8ta-frontend",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -11,9 +14,6 @@
     "react-dom": "^19.1.0",
     "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
-  },
-  "engines": {
-    "node": "16.x"
   },
   "scripts": {
     "start": "react-scripts start",
